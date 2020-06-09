@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device.width, initial-scale=1.0">
+	<title>Portfolio :: Sachin Maharjan</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+
+<div class="wrapper">
+	<!-- top intro section -->
+	<section class="top-intro">
+		<div class="short-intro">
+			<h4><span class="hello">hello</span></h4>
+			<h1>I'm Sachin Maharjan </h1>
+			<h5>Aspiring Web and Mobile Developer App</h5>
+		</div>
+
+		<div class="intro-image">
+			<img src="intro-image.jpg"	alt="picture"/>
+		</div>-
+	 </section>
+
+	 <!-- about section -->
+	 <section class="brief-intro">
+		<div class="profile-image">
+			<img id="profile-image" alt="profile-pic">
+
+		</div>
+
+		<div class="about">
+			<!-- Here all content are dynamically pulled from github api -->
+			<h2><span class="about-me">About me</span></h2>
+			<p id="aboutp"> </p>
+			<a id="checkme">check me on <i class="fa fa-github"></i></a>
+		</div>
+	 </section>
+
+	 <!-- showing repo section -->
+	 <section class="repository">
+	 	<h1>My Projects</h1>
+	 	<div class="repo-container" id="repoContainer">
+	 		
+	 	</div>
+	 		<div id="paginationWrapper"></div>
+	 </section>
+</div>
+
+<script src="./main.js"></script>
+</body>
+
+</html>
